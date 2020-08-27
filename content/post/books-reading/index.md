@@ -3,9 +3,8 @@
 
 title: "推荐阅读(reading)"
 subtitle: ""
-summary: "开始记录于2020年8月，辞职期间阅读陈皓付费专栏[《左耳听风》](https://time.geekbang.org/column/intro/48)有效缓解焦虑，等工作稳定了把这些都补上。"
-authors:
-- admin
+summary: "开始记录于2020年8月，辞职期间阅读陈皓付费专栏[《左耳听风》](https://time.geekbang.org/column/intro/48)有效缓解了焦虑，等工作稳定了把这些都补上。"
+authors: []
 tags:
 - books
 categories:
