@@ -3,7 +3,7 @@
 
 title: "Shell Script Ping"
 subtitle: ""
-summary: ""
+summary: "shell script"
 authors: []
 tags: [shell,]
 categories: []
