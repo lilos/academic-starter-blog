@@ -72,48 +72,50 @@ projects: []
    195.54.160.21 - - [26/Aug/2020:21:06:38 +0800] "GET /index.php?s=/Index/\x5Cthink\x5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP HTTP/1.1" 
    404 571 "-" 
    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36"
-   
-       #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
-       #                  '$status $body_bytes_sent "$http_referer" '
-       #                  '"$http_user_agent" "$http_x_forwarded_for"';
+
+   #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+   #                  '$status $body_bytes_sent "$http_referer" '
+   #                  '"$http_user_agent" "$http_x_forwarded_for"';
    ```
 
 4. 编写shell脚本将/usr/local/test目录下大于100K的文件转移到/tmp目录下
 
 5. shell字符串处理
 
+6. 探测10.10.10.0/24 网络主机存活脚本（Shell并发？）
+
 ## python
 
 1. 有没有一个工具可以帮助查找python的bug和进行静态的代码分析？
 2. 深拷贝和浅拷贝，赋值、切片呢？
 
-  ```python
-  >>> a=[1,2,[1,2]]
-  >>> a
-  [1, 2, [1, 2]]
-  >>> b=a
-  >>> import copy
-  >>> c=copy.copy(a)
-  >>> d=copy.deepcopy(a)
-  >>> a[2].append(5)
-  >>> a
-  [1, 2, [1, 2, 5]]
-  >>> b
-  [1, 2, [1, 2, 5]]
-  >>> c
-  [1, 2, [1, 2, 5]]
-  >>> d
-  [1, 2, [1, 2]]
-  >>> a.append(3)
-  >>> a
-  [1, 2, [1, 2, 5], 3]
-  >>> b
-  [1, 2, [1, 2, 5], 3]
-  >>> c
-  [1, 2, [1, 2, 5]]
-  >>> d
-  [1, 2, [1, 2]]
-  ```
+   ```python
+   >>> a=[1,2,[1,2]]
+   >>> a
+   [1, 2, [1, 2]]
+   >>> b=a
+   >>> import copy
+   >>> c=copy.copy(a)
+   >>> d=copy.deepcopy(a)
+   >>> a[2].append(5)
+   >>> a
+   [1, 2, [1, 2, 5]]
+   >>> b
+   [1, 2, [1, 2, 5]]
+   >>> c
+   [1, 2, [1, 2, 5]]
+   >>> d
+   [1, 2, [1, 2]]
+   >>> a.append(3)
+   >>> a
+   [1, 2, [1, 2, 5], 3]
+   >>> b
+   [1, 2, [1, 2, 5], 3]
+   >>> c
+   [1, 2, [1, 2, 5]]
+   >>> d
+   [1, 2, [1, 2]]
+   ```
 
 赋值：打标签，同一对象
 
@@ -130,11 +132,25 @@ projects: []
 ## docker
 
 1. docker copy/add 区别
-
 2. docker 配置文件介绍
-
 3. 编写 dockerfile 文件
+4. kill docker 进程会关闭吗 
 
-4. kill docker 进程会关闭吗
+## vim
 
-   
+1. 删除全部内容：ggdG
+2. vim查找和替换   [参考](https://harttle.land/2016/08/08/vim-search-in-file.html)
+
+## kvm
+
+1、virsh destory, virsh define 分别是干什么用的
+
+## nginx
+
+1、负载均衡算法
+
+2、配置文件结构
+
+3、常用模块介绍
+
+4、proxy_redirect、 proxy_pass、rewrite 对比
