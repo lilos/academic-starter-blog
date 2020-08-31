@@ -43,3 +43,4 @@ echo END
 [参考1](https://www.infvie.com/sexuality-skills/shell-multi-process.html)  
 
 [参考2](https://stackoverflow.com/questions/2791069/how-to-use-parallel-execution-in-a-shell-script)
+
