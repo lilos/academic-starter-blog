@@ -3,7 +3,7 @@
 
 title: "Interview Questions for 2020"
 subtitle: ""
-summary: "2020 面试回顾"
+summary: "2020.08 面试回顾"
 authors: []
 tags: []
 categories: []
@@ -89,45 +89,11 @@ projects: []
 1. 有没有一个工具可以帮助查找python的bug和进行静态的代码分析？
 2. 深拷贝和浅拷贝，赋值、切片呢？
 
-   ```python
-   >>> a=[1,2,[1,2]]
-   >>> a
-   [1, 2, [1, 2]]
-   >>> b=a
-   >>> import copy
-   >>> c=copy.copy(a)
-   >>> d=copy.deepcopy(a)
-   >>> a[2].append(5)
-   >>> a
-   [1, 2, [1, 2, 5]]
-   >>> b
-   [1, 2, [1, 2, 5]]
-   >>> c
-   [1, 2, [1, 2, 5]]
-   >>> d
-   [1, 2, [1, 2]]
-   >>> a.append(3)
-   >>> a
-   [1, 2, [1, 2, 5], 3]
-   >>> b
-   [1, 2, [1, 2, 5], 3]
-   >>> c
-   [1, 2, [1, 2, 5]]
-   >>> d
-   [1, 2, [1, 2]]
-   ```
-
-赋值：打标签，同一对象
-
-切片：浅拷贝
-
-浅拷贝，如果容器里面的项是引用，拷贝的就是引用，此引用指向相同的对象  
-深拷贝，如果容器里面的项是引用，拷贝的是引用所指向的对象、即创建新对象（若此对象是一个容器，里面的项是引用，递归上述操作）[Python中深拷贝和浅拷贝有什么具体的区别吗? - 小张的回答 - 知乎](https://www.zhihu.com/question/326409605/answer/699059739)
-
 ## Kubernetes
 
 1. pod理解  [为什么我们需要Pod？](https://time.geekbang.org/column/article/40092) (真的，能讲出来或者实践才能真正理解相关设计)
 2. docker理解，和虚拟机的区别
+3. 如何从运行的pod或容器中拷贝jar包
 
 ## docker
 
@@ -135,6 +101,7 @@ projects: []
 2. docker 配置文件介绍
 3. 编写 dockerfile 文件
 4. kill docker 进程会关闭吗 
+5. 几种网络模式介绍（4种？）
 
 ## vim
 
@@ -143,14 +110,15 @@ projects: []
 
 ## kvm
 
-1、virsh destory, virsh define 分别是干什么用的
+1. virsh destory, virsh define 分别是干什么用的
+2. 虚拟机崩溃后如何排查
 
 ## nginx
 
-1、负载均衡算法
+1. 负载均衡算法
 
-2、配置文件结构
+2. 配置文件结构
 
-3、常用模块介绍
+3. 常用模块介绍
 
-4、proxy_redirect、 proxy_pass、rewrite 对比
+4. proxy_redirect、 proxy_pass、rewrite 对比
