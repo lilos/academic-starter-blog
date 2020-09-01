@@ -119,3 +119,5 @@ buff/cache = Buffers + Cached + SReclaimable
 
 [[4] https://stackoverflow.com/questions/15470560/what-to-choose-between-slab-and-slub-allocator-in-linux-kernel](https://stackoverflow.com/questions/15470560/what-to-choose-between-slab-and-slub-allocator-in-linux-kernel)
 
+[[5] http://cenalulu.github.io/linux/numa/](http://cenalulu.github.io/linux/numa/)
+
