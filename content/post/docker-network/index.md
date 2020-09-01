@@ -44,14 +44,14 @@ projects: []
 | container:<u>name</u> | <u>id</u>                                                    |
 | <u>network-name</u>   | <u>network-id</u>                                            |
 
-### networking using the bridge network:
+## networking using the bridge network:
 
 [https://docs.docker.com/network/network-tutorial-standalone/](https://docs.docker.com/network/network-tutorial-standalone/)
 
 * [Use the default bridge network](https://docs.docker.com/network/network-tutorial-standalone/#use-the-default-bridge-network) demonstrates how to use the default `bridge` network that Docker sets up for you automatically. This network is not the best choice for production systems.
 * [Use user-defined bridge networks](https://docs.docker.com/network/network-tutorial-standalone/#use-user-defined-bridge-networks) shows how to create and use your own custom bridge networks, to connect containers running on the same Docker host. This is recommended for standalone containers running in production.
 
-### networking using the host network:
+## networking using the host network:
 
 [https://docs.docker.com/network/network-tutorial-host/](https://docs.docker.com/network/network-tutorial-host/)
 
