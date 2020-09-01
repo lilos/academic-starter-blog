@@ -68,7 +68,6 @@ free && sync && echo 3 > /proc/sys/vm/drop_caches && free
 ### Page Cache
 
 ```sh
-
 $ cat /proc/meminfo
 ...
 Buffers:            1224 kB
@@ -117,4 +116,6 @@ buff/cache = Buffers + Cached + SReclaimable
 [[2] https://time.geekbang.org/column/article/273892](https://time.geekbang.org/column/article/273892)
 
 [[3] https://time.geekbang.org/column/article/96103](https://time.geekbang.org/column/article/96103)
+
+[[4] https://stackoverflow.com/questions/15470560/what-to-choose-between-slab-and-slub-allocator-in-linux-kernel](https://stackoverflow.com/questions/15470560/what-to-choose-between-slab-and-slub-allocator-in-linux-kernel)
 
