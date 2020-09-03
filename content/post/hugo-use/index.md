@@ -39,6 +39,7 @@ hugo server
 
 ## 参考
 
-* [sourcethemes.com](https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post)
-* [gohugo.io](https://gohugo.io/documentation/)
+* [[1] sourcethemes.com](https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post)
+* [[2] gohugo.io](https://gohugo.io/documentation/)
 
+* [[3] www.netlify.com](https://www.netlify.com/)
