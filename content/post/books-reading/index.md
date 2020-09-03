@@ -3,7 +3,7 @@
 
 title: "推荐阅读(reading)"
 subtitle: ""
-summary: "开始记录于2020年8月辞职期间，选自[《左耳听风》](https://time.geekbang.org/column/intro/48)"
+summary: "始于2020年8月辞职期间，大部分选自[《左耳听风》](https://time.geekbang.org/column/intro/48)"
 authors: []
 tags:
 - books
