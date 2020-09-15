@@ -1,3 +1,8 @@
+## to do
+1. 指标（qps、iops）
+2. 英语学习记录
+3. 阿里云相关架构技术学习、书籍
+
 <p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
 
 # Blog Template for [Academic Website Builder](https://sourcethemes.com/academic/)
